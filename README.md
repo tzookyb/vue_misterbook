@@ -2,7 +2,7 @@
 
 Marketplace for books.
 
-##run:
+## run:
 npm i  
-##then:
+## then:
 npm run serve
