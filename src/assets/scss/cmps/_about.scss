@@ -1,0 +1,36 @@
+.about {
+    position: relative;
+    margin-top: 2rem;
+    .about-details {
+        font-size: 1.5rem;
+        align-self: flex-start;
+    }
+
+    ul {
+        margin: 1rem 3rem;
+    }
+    img {
+        width: 400px;
+        position: absolute;
+        transform: rotateX(180deg);
+        top: -2rem;
+        right: 0;
+    }
+
+    .tnc {
+        font-size: 1rem;
+        justify-self: flex-end;
+    }
+}
+
+@media (max-width: 1200px) {
+    .about {
+        img {
+            top: initial;
+            bottom: -1rem;
+            left: 0;
+            transform: rotateX(0);
+            height: 400px;
+        }
+    }
+}

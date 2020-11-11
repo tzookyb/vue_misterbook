@@ -1,0 +1,34 @@
+@import "./setup/typography";
+@import "./setup/helpers";
+@import "./setup/layout";
+@import "./setup/animations";
+
+// COMPONENTS:
+@import "./cmps/header";
+@import "./cmps/home";
+@import "./cmps/_book-filter";
+@import "./cmps/book-list";
+@import "./cmps/book-preview";
+@import "./cmps/_book-details";
+@import "./cmps/about";
+@import "./cmps/footer";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Commissioner;
+}
+
+button {
+    cursor: pointer;
+}
+
+.app {
+    min-height: 100vh;
+    overflow: hidden;
+
+    .main {
+        flex-grow: 1;
+    }
+}

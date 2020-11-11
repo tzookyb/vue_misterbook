@@ -1,0 +1,26 @@
+.book-card {
+    position: relative;
+    padding: 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: 0.3s;
+
+    .card-txt {
+        height: 4rem;
+    }
+
+    &:hover {
+        background-color: rgb(255, 227, 136);
+    }
+
+    .book-img {
+        width: 100%;
+    }
+
+    .sale-sign {
+        position: absolute;
+        top: -10px;
+        left: -5px;
+        width: 100px;
+    }
+}

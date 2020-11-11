@@ -1,0 +1,8 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 3rem 1fr 3rem;
+    grid-template-rows: 100%;
+    > * {
+        grid-column: 2;
+    }
+}

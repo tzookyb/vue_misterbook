@@ -1,0 +1,13 @@
+.peek-enter-active,
+.peek-leave-active {
+    transition: all 1s;
+}
+.peek-enter, .peek-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    transform: translateY(-100%) rotateX(180deg) !important;
+}
+
+@media (max-width: 1200px) {
+    .peek-enter, .peek-leave-to /* .fade-leave-active below version 2.1.8 */ {
+        transform: translateY(100%) !important;
+    }
+}

@@ -1,0 +1,18 @@
+.filter {
+    padding: 1rem;
+
+    h3 {
+        margin-inline-end: 10px;
+    }
+
+    input[type="search"] {
+        padding: 0 1rem;
+        font-size: 1.2rem;
+        border: none;
+        border-bottom: 1px solid rgba(145, 145, 145, 0.664);
+        outline: none;
+    }
+    span {
+        width: 2rem;
+    }
+}
