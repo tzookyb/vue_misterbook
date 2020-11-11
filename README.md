@@ -2,7 +2,5 @@
 
 Marketplace for books.
 
-#### run:
-npm i  
-#### then:
-npm run serve
+### to run:
+npm run dev
